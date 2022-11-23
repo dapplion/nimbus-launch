@@ -7,7 +7,7 @@ env:
   DOCKER_REGISTRY: ghcr.io
   DOCKER_USERNAME: ${{ github.actor }}
   DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
-  IMAGE_NAME: ghcr.io/gnosischain/gbc-nimbus
+  IMAGE_NAME: ghcr.io/dapplion/gbc-nimbus
 
 jobs:
   build-amd64:
