@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: status-im/nimbus-eth2
-          ref: f7eff8fcbe3c62047e71694508523dada3080184
+          ref: c585b0a5b1ae4d55af38ad7f4715ad455e791552
       - name: Checkout configs
         uses: actions/checkout@v2
         with:
